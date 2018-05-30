@@ -2,6 +2,17 @@
 
 ## Prerequisites
 
+### ESXi
+
+* Open SSH service
+* Set full qualified domain name:
+
+```bash
+esxcli system hostname set --fqdn=my.esxi.host
+```
+
+### Provisioner
+
 * Install ansible package:
 
 ```bash
